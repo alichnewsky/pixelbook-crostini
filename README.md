@@ -14,18 +14,18 @@ Error: routine at frontends/vmc.rs:118 `vm_start(vm_name,user_id_hash,matches.op
 ```
 - 06/16/2019 : turned on `chrome://flags` for `#crostini-backup` `#crostini-usb-support` and `#crostini-app-search`
 
-
-## working with multiple VM and containers
-
-- can I launch a terminal for anything but the default `termina` vm and `penguin` stretch container
-- docker inside `termina`, inside an `lxc` container... (this actually worked, I just never bothered documenting it)
-
-## working with `docker` inside `termina` VM inside `penguin` container.
+## Working with containers 
+### working with multiple VM and containers
+- [a closer look at chrome os, using LXD to run linux gui apps, project crostini](https://blog.simos.info/a-closer-look-at-chrome-os-using-lxd-to-run-linux-gui-apps-project-crostini/)
+- [Using LXD/LXC In Termina to Launch containers](https://www.reddit.com/r/Crostini/wiki/howto/uselxd)
+- [Boostrapping a container](https://www.reddit.com/r/Crostini/wiki/getstarted/bootstrapping-a-container)
+- [How to go fishing for a file in a backed up vm](https://www.reddit.com/r/Crostini/comments/aw9hy7/can_anybody_start_termina_with_todays_dev_update/)
+   - [How to reset everything](https://www.reddit.com/r/Crostini/comments/8ddx2l/question_how_to_reset_everything/)
+### working with `docker` inside `termina` VM inside `penguin` container.
 Instructions such as [these](https://hackernoon.com/pixelbook-revisited-running-docker-containers-aa7c742a7dec) work out of the box...
 
 The only trick seems to be to make sure you add your user to the `docker` group to get non-root access to the docker socket. That may require you to quit your container, stop/start your termina VM and launch `penguin` again. 
-
-## well known ports automatically forwarded from Chrome OS into the default `termina:penguin` container
+### well known ports automatically forwarded from Chrome OS into the default `termina:penguin` container
 source : [https://www.reddit.com/r/Crostini/wiki/index/well-known-ports](https://www.reddit.com/r/Crostini/wiki/index/well-known-ports)
 ```
 3000,  // Rails
@@ -39,6 +39,16 @@ source : [https://www.reddit.com/r/Crostini/wiki/index/well-known-ports](https:/
 9005,  // Firebase login
 ```
 apparently the hostname `penguin.linux.test` points to it as well...
+
+## Back-up strategy
+## Personal Configuration in containers 
+- import my `.emacs`, `.spacemacs`, `.tmux` etc.
+## Encryption and Security strategies
+
+- TODO: import my ssh keys? 
+- TODO: import GPG key rings ?
+   - do yubikey work in crostini?
+- TODO : keybase.io inside crostini container ? a dedicated one for all crypto stuff?
 
 ## automation
 Backup / Restore etc.
