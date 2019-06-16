@@ -25,3 +25,17 @@ Error: routine at frontends/vmc.rs:118 `vm_start(vm_name,user_id_hash,matches.op
 Backup / Restore etc.
 
 ## links
+- [Chromium OS Docs - Running Custom Containers Under Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md)
+- [a closer look at chrome os, using LXD to run linux gui apps, project crostini](https://blog.simos.info/a-closer-look-at-chrome-os-using-lxd-to-run-linux-gui-apps-project-crostini/)
+   - this contains a drill down of the difference between stock debian/stretch and google's crostini default image.
+- [Keith Myers' blog](https://kmyers.me/knowledge/chromeos/)
+- [Frank McPherson's wiki CrhomeOS section](https://fedwiki.frankmcpherson.net/view/welcome-visitors/view/site-index/)
+   - [Frank McPherson's wiki crostini section](https://fedwiki.frankmcpherson.net/view/welcome-visitors/view/site-index/view/crostini)
+   - [docker in crostini](https://fedwiki.frankmcpherson.net/view/welcome-visitors/view/site-index/view/docker-in-crostini)
+     - [experiments with docker in crostini](https://fedwiki.frankmcpherson.net/view/welcome-visitors/view/site-index/view/experiments-with-docker-on-pixelbook)
+- [reddit's r/Crostini ](https://www.reddit.com/r/Crostini)
+   - [Using LXD/LXC In Termina to Launch containers](https://www.reddit.com/r/Crostini/wiki/howto/uselxd)
+   - [Boostrapping a container](https://www.reddit.com/r/Crostini/wiki/getstarted/bootstrapping-a-container)
+   - [How to go fishing for a file in a backed up vm](https://www.reddit.com/r/Crostini/comments/aw9hy7/can_anybody_start_termina_with_todays_dev_update/)
+   - [How to reset everything](https://www.reddit.com/r/Crostini/comments/8ddx2l/question_how_to_reset_everything/)
+- [Image server for LXC and LXD](https://us.images.linuxcontainers.org/)
