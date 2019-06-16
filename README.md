@@ -20,6 +20,20 @@ Error: routine at frontends/vmc.rs:118 `vm_start(vm_name,user_id_hash,matches.op
 - can I launch a terminal for anything but the default `termina` vm and `penguin` stretch container
 - docker inside `termina`, inside an `lxc` container... (this actually worked, I just never bothered documenting it)
 
+## Well known ports automatically forwarded from Chrome OS into the default `termina:penguin` container
+source : [https://www.reddit.com/r/Crostini/wiki/index/well-known-ports](https://www.reddit.com/r/Crostini/wiki/index/well-known-ports)
+```
+3000,  // Rails
+4200,  // Angular
+5000,  // Flask
+8000,  // Django
+8008,  // HTTP alternative port
+8080,  // HTTP alternative port
+8085,  // Cloud SDK
+8888,  // ipython/jupyter
+9005,  // Firebase login
+```
+apparently the hostname `penguin.linux.test` points to it as well...
 
 ## automation
 Backup / Restore etc.
