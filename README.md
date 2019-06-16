@@ -21,11 +21,11 @@ Error: routine at frontends/vmc.rs:118 `vm_start(vm_name,user_id_hash,matches.op
 - docker inside `termina`, inside an `lxc` container... (this actually worked, I just never bothered documenting it)
 
 ## working with `docker` inside `termina` VM inside `penguin` container.
-Instructions such as [these][(https://hackernoon.com/pixelbook-revisited-running-docker-containers-aa7c742a7dec) work out of the box...
+Instructions such as [these](https://hackernoon.com/pixelbook-revisited-running-docker-containers-aa7c742a7dec) work out of the box...
 
 The only trick seems to be to make sure you add your user to the `docker` group to get non-root access to the docker socket. That may require you to quit your container, stop/start your termina VM and launch `penguin` again. 
 
-## Well known ports automatically forwarded from Chrome OS into the default `termina:penguin` container
+## well known ports automatically forwarded from Chrome OS into the default `termina:penguin` container
 source : [https://www.reddit.com/r/Crostini/wiki/index/well-known-ports](https://www.reddit.com/r/Crostini/wiki/index/well-known-ports)
 ```
 3000,  // Rails
