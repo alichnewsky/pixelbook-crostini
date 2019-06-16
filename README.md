@@ -39,3 +39,4 @@ Backup / Restore etc.
    - [How to go fishing for a file in a backed up vm](https://www.reddit.com/r/Crostini/comments/aw9hy7/can_anybody_start_termina_with_todays_dev_update/)
    - [How to reset everything](https://www.reddit.com/r/Crostini/comments/8ddx2l/question_how_to_reset_everything/)
 - [Image server for LXC and LXD](https://us.images.linuxcontainers.org/)
+- [pixelbook revisited - running docker containers](https://hackernoon.com/pixelbook-revisited-running-docker-containers-aa7c742a7dec)
