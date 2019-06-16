@@ -1,4 +1,4 @@
-# pixelbook-croostini
+# pixelbook-crostini
 
 Notes, links and resources about running linux containers on a chromebook ( PixelBook ) using Crostini (i.e. ChromeOS' Linux applications support )
 
